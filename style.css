@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 10px 25px;
+}
+
+.link {
+  font-size: 1.25rem;
+  color: #ffffff;
+  transition: all 0.5 ease;
+}
+
+.link:hover {
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 0 10px #fff;
+}
+
+/* Home */
+#home {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#home::before {
+  background: url("./images/newyork-night.jpg");
+  background-repeat: no-repeat;
+  background-position: center/cover;
+  background-size: cover;
+  content: "";
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  opacity: 0.8;
+  position: absolute;
+  color: #ffffff;
+}
+
+.home-text {
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.contact-btn {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+  border-color: #fff;
+  border-style: solid;
+  transition: all 0.5 ease;
+}
+
+.contact-btn:hover {
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 0 10px #b1b1b1;
+  font-weight: bold;
+}
+
+/* About */
+
+#about {
+  background-color: #fff;
+}
+
+.about {
+  display: flex;
+  margin: 20px;
+}
+
+.headings {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.about-text {
+  color: #000;
+  font-size: 1.25rem;
+  padding: 10px;
+}
+
+.portfolio-img {
+  width: 400px;
+  height: 400px;
+}
