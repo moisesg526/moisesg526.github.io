@@ -121,3 +121,27 @@ h2 {
   width: 400px;
   height: 400px;
 }
+
+/* Projects */
+
+#projects {
+  background-color: #000;
+  padding: 20px;
+}
+
+.projects {
+  display: flex;
+}
+
+.projects-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.projects-imgs img {
+  margin: 40px;
+  width: 400px;
+  height: 350px;
+}
