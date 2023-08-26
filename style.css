@@ -11,7 +11,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 2rem 5rem;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo-img {
@@ -19,8 +18,10 @@
 }
 
 .links a {
+  margin: 0 1rem;
   text-decoration: none;
-  padding: 10px 25px;
+  padding: .5rem 1.2rem;
+  gap: 3rem;
 }
 
 .link {
@@ -31,46 +32,39 @@
 
 .link:hover {
   color: #000;
-  background-color: #fff;
-  box-shadow: 0 0 10px #fff;
+  background-color: #dfdfdf;
+  box-shadow: 0 0 10px #d1d1d1;
 }
 
 /* Home */
-#home {
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 800px;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-
-#home::before {
-  background: url("./images/newyork-night.jpg");
-  background-repeat: no-repeat;
-  background-position: center/cover;
-  background-size: cover;
-  content: "";
-  height: 900px;
+.home-container {
   width: 100%;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  opacity: 0.8;
-  position: absolute;
-  color: #ffffff;
+  height: 100vh;
+  background: url("./images/newyork-night.jpg") rgba(86, 86, 86, 0.7) no-repeat center center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  position: relative;
 }
 
-.home-text {
-  padding-bottom: 40px;
+.home-content {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h3 {
   font-size: 1.5rem;
+  margin: 0.8rem 0;
 }
 
 h2 {
   font-size: 3rem;
+}
+
+.home-contact-btn {
+  margin: 2rem 0;
 }
 
 .contact-btn {
@@ -78,16 +72,15 @@ h2 {
   font-size: 24px;
   text-decoration: none;
   padding: 10px;
-  border-radius: 6px;
-  border-color: #fff;
-  border-style: solid;
+  border: #fff solid 2px;
+  border-radius: 10px;
   transition: all 0.5 ease;
 }
 
 .contact-btn:hover {
   color: #000;
-  background-color: #fff;
-  box-shadow: 0 0 10px #b1b1b1;
+  background-color: #dfdfdf;
+  box-shadow: 0 0 10px #d1d1d1;
   font-weight: bold;
 }
 
