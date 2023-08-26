@@ -7,17 +7,15 @@
 /* Navbar */
 
 .navbar {
-  padding: 20px 0;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5rem;
   background-color: rgba(0, 0, 0, 0.5);
-  position: sticky;
-  top: 0;
 }
 
-.logo {
-  font-size: 1.5rem;
-  color: #fff;
+.logo-img {
+  width: 3rem;
 }
 
 .links a {
