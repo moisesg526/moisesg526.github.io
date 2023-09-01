@@ -170,7 +170,6 @@ h2 {
   text-decoration: none;
   display: flex;
   justify-content: center;
-  font-size: 1.2rem;
   margin: 2rem 0 0;
   padding: 1rem 0;
   border: 1px solid #4b4b4b;
@@ -188,6 +187,7 @@ h2 {
   box-sizing: border-box;
 }
 
+/* ------------------- CONTACT ---------------------- */
 #contact {
   background-color: #000;
   text-align: center;
@@ -322,20 +322,13 @@ h2 {
 
   /* Projects */
 
-  #projects {
-    background-color: #000;
-  }
-
   .projects-imgs {
-    display: grid;
-    place-items: center;
-    margin: auto;
     width: 80%;
   }
 
   .proj-sect {
-    background-color: #292929;
     margin: 4rem;
+    width: 70%;
     display: flex;
     justify-content: center;
   }
@@ -344,24 +337,21 @@ h2 {
     padding: 3rem;
     width: 400px;
     height: 350px;
-    opacity: 0.8;
   }
 
-  .proj-sect a:hover {
-    color: #000;
-    background-color: #fff;
-    transition: ease 0.7s;
+  .proj-sect a {
+    margin: 2rem 0 0;
+    padding: 1rem 0;
+    width: 40%;
   }
+
   .proj-description {
-    color: #fff;
-    border: 1px solid #4b4b4b;
     margin: 2rem;
-    padding: 2rem;
-    box-sizing: border-box;
     width: 100%;
     display: grid;
     
   }
+  
   /* CONTACT */
 
   #contact {
