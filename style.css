@@ -351,6 +351,12 @@ h2 {
     display: grid;
     
   }
+
+  .project-btn-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
   
   /* CONTACT */
 
