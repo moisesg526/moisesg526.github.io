@@ -150,7 +150,6 @@ h2 {
   margin: auto;
 }
 
-
 .proj-sect {
   background-color: #292929;
   margin: 2rem 3rem;
@@ -193,7 +192,7 @@ h2 {
   text-align: center;
 }
 
-.contact .text {
+.contact > p {
   color: #fff;
   padding: 20px;
   margin-bottom: 20px;
@@ -216,6 +215,32 @@ h2 {
 
 /* MEDIUM SCREENS */
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .headings {
+    font-size: 2rem;
+  }
+
+  .text-section > h3 {
+    font-size: 1.8rem;
+  }
+
+  .text-section > p {
+    font-size: 1.5rem;
+  }
+
+  .proj-description > h3 {
+    font-size: 1.5rem;
+  }
+
+  .proj-description > p {
+    font-size: 1.3rem;
+  }
+
+  .contact > p {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    font-size: 1.3rem;
+  }
 }
 
 /* ----------------- LARGE SCREENS ------------------------- */
@@ -347,9 +372,8 @@ h2 {
 
   .proj-description {
     margin: 2rem;
-    width: 100%;
     display: grid;
-    
+    width: fit-content;
   }
 
   .project-btn-section {
@@ -357,7 +381,12 @@ h2 {
     justify-content: center;
     gap: 1rem;
   }
-  
+
+  .project-btn-section a {
+    width: fit-content;
+    padding: 0.8rem 1.5rem;
+  }
+
   /* CONTACT */
 
   #contact {
