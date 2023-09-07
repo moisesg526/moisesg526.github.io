@@ -31,6 +31,11 @@
   display: none;
 }
 
+.bars {
+  color: #fff;
+  cursor: pointer;
+}
+
 /* Home */
 .home-container {
   height: 100vh;
@@ -186,7 +191,7 @@ h2 {
   box-sizing: border-box;
 }
 
-/* ------------------- CONTACT ---------------------- */
+/* CONTACT  */
 #contact {
   background-color: #000;
   text-align: center;
@@ -213,7 +218,7 @@ h2 {
   padding: 0 10px;
 }
 
-/* MEDIUM SCREENS */
+/* --------------------------- MEDIUM SCREENS ---------------------- */
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
   .headings {
     font-size: 2rem;
@@ -281,6 +286,10 @@ h2 {
     color: #000;
     background-color: #dfdfdf;
     box-shadow: 0 0 10px #d1d1d1;
+  }
+
+  .bars {
+    display: none;
   }
 
   /* Home */
