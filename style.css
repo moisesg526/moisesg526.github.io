@@ -4,14 +4,18 @@
   box-sizing: border-box;
 }
 
+p {
+  max-width: 50ch;
+  line-height: 1.4rem;
+}
+
 /* HEADINGS */
 
 .headings {
   background-color: #000;
   color: #fff;
-  padding: 2rem;
   text-align: center;
-  font-size: 1.4rem;
+  padding: 1rem 0;
 }
 
 /* Navbar */
@@ -71,7 +75,7 @@ h2 {
   color: #fff;
   font-size: 1.4rem;
   text-decoration: none;
-  padding: 10px;
+  padding: 0.5rem;
   border: #fff solid 2px;
   border-radius: 10px;
   transition: all 0.5 ease;
@@ -193,14 +197,15 @@ h2 {
 
 /* CONTACT  */
 #contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #000;
+  color: #fff;
   text-align: center;
 }
-
-.contact > p {
-  color: #fff;
-  padding: 20px;
-  margin-bottom: 20px;
+#contact p {
+  padding: 0 0 2rem;
 }
 
 /* footer */
@@ -222,6 +227,7 @@ h2 {
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
   .headings {
     font-size: 2rem;
+    padding: 0;
   }
 
   .text-section > h3 {
@@ -301,14 +307,6 @@ h2 {
 
   h2 {
     font-size: 3rem;
-  }
-
-  .home-contact-btn {
-    margin: 2rem 0;
-  }
-
-  .contact-btn {
-    font-size: 1.6rem;
   }
 
   /* About */
@@ -406,8 +404,7 @@ h2 {
 
   .contact .text {
     color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 0 0 1rem;
   }
 
   /* footer */
