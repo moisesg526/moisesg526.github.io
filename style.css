@@ -132,6 +132,8 @@ h2 {
 
 .am-links:hover {
   color: #3f3f3f;
+  transition: ease-in 0.2s;
+  transform: scale(1.2);
 }
 
 /* Skills */
@@ -390,6 +392,8 @@ h2 {
   }
 
   .project-btn-section a {
+    display: flex;
+    align-items: center;
     width: fit-content;
     padding: 0.8rem 1.5rem;
   }
