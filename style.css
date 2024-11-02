@@ -29,6 +29,7 @@ p {
 
 .logo-img {
   width: 2.5rem;
+  display: none;
 }
 
 .links a {
@@ -227,6 +228,10 @@ h2 {
 
 /* --------------------------- MEDIUM SCREENS ---------------------- */
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .logo-img {
+    display: block;
+  }
+
   .headings {
     font-size: 2rem;
     padding: 0;
@@ -258,6 +263,10 @@ h2 {
 
 /* ----------------- LARGE SCREENS ------------------------- */
 @media only screen and (min-width: 1025px) {
+  .logo-img {
+    display: block;
+  }
+
   .headings {
     padding: 2rem;
     font-size: 2rem;
